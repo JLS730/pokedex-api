@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: url(./images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.title-image {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: auto;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokemon {
+    width: 300px;
+    height: 350px;
+    border: 3px solid black;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.grass {
+    background-color: green;
+}
+
+.fire {
+    background-color: red;
+}
+
+.water {
+    background-color: blue;
+}
+
+.bug {
+    background-color: darkgreen;
+}
+
+.normal {
+    background-color: silver;
+}
+
+.poison {
+    background-color: rgb(105, 2, 105);
+}
+
+.electric {
+    background-color: yellow;
+}
+
+.ground {
+    background-color: tan;
+}
+
+.fairy {
+    background-color: pink;
+}
+
+.fighting {
+    background-color: rgb(141, 40, 40);
+}
+
+.psychic {
+    background-color: rgb(228, 3, 228);
+}
+
+.rock {
+    background-color: grey;
+}
+
+.ghost {
+    background-color: rgb(71, 55, 71);
+}
+
+.ice {
+    background-color: lightblue;
+}
+
+.dragon {
+    background-color: orange;
+}
+
+.info-text {
+    text-align: center;
+    display: block;
+}
+
+.info-number {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(228, 228, 228);
+    border-bottom: 2px solid black;
+}
+
+.info-name {
+    font-family: 'Delta Gothic One', cursive;
+    margin-top: 20px;
+    background-color: rgb(228, 228, 228);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.info-name::first-letter {
+    text-transform: uppercase;
+}
+
+.info-type {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: rgb(228, 228, 228);
+}
+
+.info-type::first-letter {
+    text-transform: uppercase;
+}
+
+.pokemon-image {
+    width: 200px;
+    height: 200px;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 2px solid rgb(53, 53, 53);
+    background-color: rgb(228, 228, 228);
+}
