@@ -8,11 +8,6 @@ const btn2 = document.querySelectorAll('.btn2')
 const pokemonNameArray = []
 const pokemonTypeArray = []
 
-// generateBtn.addEventListener('click', () => {
-//     console.log(btn)
-//     console.log(btn2)
-// })
-
 const getPokemonType = async () => {
     for(let i = 1; i < 152; i++) {
         await individualPokemons(i)
@@ -71,4 +66,4 @@ function pokemonData() {
 
 setTimeout(() => {
     pokemonData()
-}, 3500)
+}, 4000)
